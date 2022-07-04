@@ -40,7 +40,7 @@ jobs:
         run: npm run build
 
       - name: 部署到PAGES
-        uses: JamesIves/github-pages-deploy-actions@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: qa-pg
           folder: dist/
